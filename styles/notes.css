@@ -1,0 +1,109 @@
+body,
+body * {
+	
+}
+
+img {
+	max-height: 100vh;
+}
+
+.no_scroll {
+	overflow:hidden;
+}
+
+.notes {
+	display: flex;
+	align-content: flex-start;
+	margin-top: 10px;
+	overflow:scroll;
+}
+
+.stories {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	padding: 10px;
+}
+
+.poetry {
+	display: flex;
+	justify-content: space-around;
+	align-content: flex-start;
+}
+
+.drawings {
+	display: flex;
+	overflow: hidden;
+}
+
+#document {
+
+	height: 100%;
+}
+
+#small_icon {
+
+	max-height: 80px;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+/*-----------------------*/
+
+.sproutpage {
+	display: flex;
+	justify-content: center;
+
+}
+
+.audio {
+	height: 60vh;
+	position: relative;
+	
+}
+
+#sprout {
+	position: absolute;
+	width:auto;
+	height:50%;
+	background: none;
+	z-index: 100;
+}
+#sprout:hover {
+	cursor: move;
+}
+
+/*------------------*/
+
+.comic {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.drawing_size {
+	width: 100%;
+	height: auto;
+
+}
+
+.drawing_right {
+	height: 60vh;
+	margin-left: auto;
+}
+
+/*-------------------*/
+
+
+.video {
+	height: 70vh;
+}
+
+/*----------------------*/
+
+.expand_image {
+	width: auto;
+	height: 100vh;
+}
